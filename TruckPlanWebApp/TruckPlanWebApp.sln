@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BA324694-07F7-4D59-868A-AA10BAC225CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlanWebApp", "TruckPlanWebApp\TruckPlanWebApp.csproj", "{264E21D6-4024-4A53-B1BE-1CD42F3348FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlanApiClient", "TruckPlanApiClient\TruckPlanApiClient.csproj", "{4D4EB1C1-5DBD-46D8-9FB7-3929DD9E54C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264E21D6-4024-4A53-B1BE-1CD42F3348FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264E21D6-4024-4A53-B1BE-1CD42F3348FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264E21D6-4024-4A53-B1BE-1CD42F3348FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264E21D6-4024-4A53-B1BE-1CD42F3348FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4EB1C1-5DBD-46D8-9FB7-3929DD9E54C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4EB1C1-5DBD-46D8-9FB7-3929DD9E54C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4EB1C1-5DBD-46D8-9FB7-3929DD9E54C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4EB1C1-5DBD-46D8-9FB7-3929DD9E54C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7C35292-319C-4841-8117-740D821FC93B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,83 @@
+﻿@model TruckPlanApiClient.Model.GPSTruckRecord
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GPSTruckRecord</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentUser.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentUser.FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GpsDeviceID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GpsDeviceID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecordDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecordDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kilometer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kilometer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProcessStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProcessStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

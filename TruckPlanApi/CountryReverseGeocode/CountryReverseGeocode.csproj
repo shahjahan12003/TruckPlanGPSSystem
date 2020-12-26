@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+    <FileVersion>2.1.0.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.1</Version>
+    <Authors>Malcolm Jack, Hoss Shah</Authors>
+    <Company>Wibci Labs</Company>
+    <Product>Offline Country Reverse Geocode</Product>
+    <Description>given latitude and longitude, get the country or american state name where the point is located. Offline operation - no api calls necessary</Description>
+    <PackageProjectUrl>https://github.com/InquisitorJax/CountryReverseGeocode</PackageProjectUrl>
+    <PackageIconUrl>http://wibcisoft.com/Images/Wibcisoft.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/InquisitorJax/CountryReverseGeocode</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Xamarin, .NET, Geolocation</PackageTags>
+    <PackageReleaseNotes>.NET Standard update</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+
+</Project>

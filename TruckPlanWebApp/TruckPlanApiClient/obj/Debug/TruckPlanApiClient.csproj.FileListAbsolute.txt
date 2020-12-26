@@ -1,0 +1,13 @@
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\IO.Swagger.dll.config
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\IO.Swagger.dll
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\IO.Swagger.pdb
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\JsonSubTypes.dll
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\Newtonsoft.Json.dll
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\RestSharp.dll
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\Newtonsoft.Json.xml
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\bin\Debug\RestSharp.xml
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\obj\Debug\TruckPlanApiClient.csproj.CoreCompileInputs.cache
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\obj\Debug\TruckPlanApiClient.csproj.CopyComplete
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\obj\Debug\IO.Swagger.dll
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\obj\Debug\IO.Swagger.pdb
+E:\Learning\Microservice\TruckPlanWebApp\TruckPlanApiClient\obj\Debug\TruckPlanApiClient.csprojAssemblyReference.cache

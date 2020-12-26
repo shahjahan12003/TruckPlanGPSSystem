@@ -1,0 +1,59 @@
+﻿@model TruckPlanWebApp.Models.TruckDriverInformation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TruckDriverInformation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GPSDeviceID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GPSDeviceID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriverName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriverLicenseNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverLicenseNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriverNationalIDNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverNationalIDNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
